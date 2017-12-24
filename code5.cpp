@@ -45,3 +45,33 @@ void draw() {
     window.draw(hero);
     window.display();
 }
+
+// main function
+int main() {
+
+    //load the images
+    load();
+
+    //timers are useful for animation
+    sf::Clock timer1;
+
+    // sfml window polling
+    while(window.isOpen()) {
+        sf::Event event;
+        while(window.pollEvent(event)) {
+            if(event.type == sf::Event::Closed) {
+                window.close();
+            }
+
+        }
+
+        //get the input then draw
+        
+        if(timer1.getElapsedTime().asMilliseconds() > 10) {
+            input();
+            timer1.restart();
+            draw();
+        }
+
+    }
+}
