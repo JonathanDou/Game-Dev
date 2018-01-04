@@ -10,4 +10,4 @@ Edit 5: Added constant hero speed/timing
 
 Edit 6: Made hero background transparent
 
-TODO: Make Guns and Bullets
+TODO: Make gun background transparent
