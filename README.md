@@ -9,3 +9,4 @@ Edit 4: Added movement
 Edit 5: Added constant hero speed/timing
 
 TODO: Make hero background transparent, figure out what hero weapon is 
+ - Got the transparent background, it's the 'stombasprite' file instead of 'mainstomba' ones
